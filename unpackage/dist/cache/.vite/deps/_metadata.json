@@ -1,13 +1,19 @@
 {
-  "hash": "0fbb487d",
+  "hash": "001eea12",
   "configHash": "6f6e13e8",
-  "lockfileHash": "01fb8d67",
-  "browserHash": "82a87e22",
+  "lockfileHash": "d3fc28f4",
+  "browserHash": "946edfb4",
   "optimized": {
     "uview-plus": {
       "src": "../../../../../node_modules/uview-plus/index.js",
       "file": "uview-plus.js",
-      "fileHash": "b42af6f8",
+      "fileHash": "3eb2006b",
+      "needsInterop": false
+    },
+    "luch-request": {
+      "src": "../../../../../node_modules/luch-request/src/lib/luch-request.js",
+      "file": "luch-request.js",
+      "fileHash": "d8e1c8ba",
       "needsInterop": false
     }
   },

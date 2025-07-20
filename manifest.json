@@ -69,4 +69,17 @@
         "enable" : false
     },
     "vueVersion" : "3"
+	// "h5": {
+	//     "devServer": {
+	//       "proxy": {
+	//         "/api": {
+	//           "target": "http://api.test.11228899.net/", // 后端服务地址
+	//           "changeOrigin": true,
+	//           "pathRewrite": {
+	//             "^/api": "" 
+	//           }
+	//         }
+	//       }
+	//     }
+	//   }
 }

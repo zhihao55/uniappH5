@@ -30,7 +30,8 @@
 </script>
 <script setup>
 import { ref, reactive } from 'vue';
-import { onLoad, onShow } from '@dcloudio/uni-app';  
+import { onLoad, onShow } from '@dcloudio/uni-app';
+import {shopData} from '@/api/shop.js';
 
 const indexList = reactive([]);
 const urls = [
@@ -48,6 +49,7 @@ const urls = [
 
 onLoad(() => {
   loadmore();
+  data();
 });
 
 const scrolltolower = () => {
@@ -62,6 +64,11 @@ const loadmore = () => {
     });
   }
 };
+
+const data=async()=>{
+	const aa=await shopData({'type':1});
+	console.log(aa);
+}
 	
 </script>
 
